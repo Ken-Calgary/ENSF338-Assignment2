@@ -17,7 +17,7 @@ def func1(arr, low, high):
 
 
 def func2(array, start, end):
-    middle_index = int((end - start) / 2) + start
+    middle_index = ((end - start) // 2) + start
     reorganized_list.append(array[middle_index])
     return middle_index
 
